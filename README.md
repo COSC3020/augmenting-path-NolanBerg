@@ -33,3 +33,13 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+Sources: Used ai for this assignment
+
+The BFS loop runs $O(V)$ times, each node processed once.
+
+For each node, exploring its neighbors takes time proportional to number of neighbors. Over all nodes, this is $O(E)$, as each edge is considered once.
+
+Combining these, the worst-case time complexity of the BFS algorithm is $O(V + E)$.
+
+The worst-case big $\Theta$ complexity of my implementation is $\Theta(V + E)$
